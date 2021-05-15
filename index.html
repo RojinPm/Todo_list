@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <style>
+    
+     h1,h2,h3,h4{
+
+
+         text-align: center;
+     }
+
+     h1{
+  
+         color: #ff3b3b;
+ 
+
+     }
+     button{
+
+       background: #ffa7a7;
+
+     }
+
+    li{
+ 
+     
+         list-style-type:none;
+
+    }
+
+
+
+     .cools{
+
+    
+ 
+      text-align: center;
+      font-family: 'Oswald', Helvetica, sans-serif;
+     font-size: 80px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+      word-spacing: -8px;
+    color: tomato;
+    text-shadow: 
+  -1px -1px 0 firebrick,
+  -2px -2px 0 firebrick,
+  -3px -3px 0 firebrick,
+  -4px -4px 0 firebrick,
+  -5px -5px 0 firebrick,
+  -6px -6px 0 firebrick,
+  -7px -7px 0 firebrick,
+  -8px -8px 0 firebrick,
+  -30px 20px 40px dimgrey
+
+
+}
+.toggle_design{
+
+     color: red;
+ 
+
+}
+
+
+  body{
+    
+    background:linear-gradient(to right, rgb(195, 203, 195), rgb(51, 255, 129));
+     font-family: 'Poppins', sans-serif;
+
+  }
+  .BodyContent{
+   display: inline-block;
+   position: relative;
+   left: 40%;
+ 
+
+  }
+  @media only screen and (max-width:700px){
+
+    .BodyContent{
+   display: inline-block;
+   position: relative;
+   left: 13%;
+   top: 10%;
+ 
+
+  }
+
+
+
+  }
+
+
+h3{
+
+  text-align: center;
+
+}
+p{
+
+ text-align: center;
+
+}
+#user-input{
+ 
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+    
+
+    <h1 random="30">Shopping Cart</h1>
+    <h3 class="stupid">Todo List</h4>
+    <p id="first">Get it done today</p>
+    <p class="second">No Excuses</p>
+    <ul>
+  <!-- 
+      
+     <li class="bold-red">Notebook</li> -->
+     <div class="BodyContent">
+          <input id="user-input" type="text" placeholder="Enter Items">
+          
+         <button id="Enter">Click</button><br><br>
+  
+     <!-- <li class="add classlist">Rojin Pm</li> -->
+    
+     <!-- <li>RohitJoby</li>
+     
+     <li>Rony Binoy</li>
+    
+     <li>Nintu Punnoose</li>
+    
+     <li>Athul Jose</li>
+     -->
+  
+  
+    </ul>
+  
+     </div>
+  <script src="script.js" type="text/javascript"></script>
+<!-- 
+
+  document.querySelector("li").classList
+DOMTokenList(2) ["add", "classlist", value: "add classlist"]0: "add"1: "classlist"length: 2value: "add classlist"__proto__: DOMTokenList
+document.querySelectorAll("li").classList
+undefined
+document.querySelector("li").classList
+DOMTokenList(2) ["add", "classlist", value: "add classlist"]0: "add"1: "classlist"length: 2value: "add classlist"__proto__: DOMTokenListadd: ƒ add()contains: ƒ contains()entries: ƒ entries()forEach: ƒ forEach()item: ƒ item()keys: ƒ keys()length: (...)remove: ƒ remove()replace: ƒ replace()supports: ƒ supports()toString: ƒ toString()toggle: ƒ toggle()value: (...)values: ƒ values()constructor: ƒ DOMTokenList()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "DOMTokenList"get length: ƒ length()get value: ƒ value()set value: ƒ value()__proto__: Object
+document.querySelector("li").classList.add("cools") -->
+
+</body>
+</html>
